@@ -1,0 +1,16 @@
+2019-04-08 22:29:59,876 - pycanv:main - INFO - main : 29 - Command entered :C 20 4
+2019-04-08 22:30:03,767 - pycanv:main - INFO - main : 29 - Command entered :L 1 2 6 2
+2019-04-08 22:30:10,524 - pycanv:main - INFO - main : 29 - Command entered :L 6 3 6 4
+2019-04-08 22:30:15,551 - pycanv:main - INFO - main : 29 - Command entered :R 14 1 18 3
+2019-04-08 22:31:48,341 - pycanv:main - INFO - main : 29 - Command entered :R 14 1 18 3
+2019-04-08 22:31:52,805 - pycanv:main - INFO - main : 29 - Command entered :C 20 4
+2019-04-08 22:31:58,577 - pycanv:main - INFO - main : 29 - Command entered :R 14 1 18 3
+2019-04-08 22:33:11,321 - pycanv:main - INFO - main : 28 - Command entered :C 20 4
+2019-04-08 22:33:15,261 - pycanv:main - INFO - main : 28 - Command entered :R 14 1 18 3
+2019-04-08 22:33:21,002 - pycanv:main - INFO - main : 28 - Command entered :B 10 3 O
+2019-04-08 22:34:11,752 - pycanv:main - INFO - main : 28 - Command entered :C 20 4
+2019-04-08 22:34:22,501 - pycanv:main - INFO - main : 28 - Command entered :R 14 1 18 3
+2019-04-08 22:34:27,230 - pycanv:main - INFO - main : 28 - Command entered :B 10 3 O
+2019-04-08 22:36:19,002 - pycanv:main - INFO - main : 28 - Command entered :C 20 4
+2019-04-08 22:36:24,706 - pycanv:main - INFO - main : 28 - Command entered :R 14 1 18 3
+2019-04-08 22:36:29,048 - pycanv:main - INFO - main : 28 - Command entered :B 10 3 O

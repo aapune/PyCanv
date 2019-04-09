@@ -1,0 +1,305 @@
+2019-04-09 21:18:35,512 - pycanv:main - INFO - main : 53 - Command entered :Q
+2019-04-09 21:18:38,027 - pycanv:main - INFO - main : 53 - Command entered :Q
+2019-04-09 21:33:31,585 - pycanv:main - INFO - main : 48 - Command entered :Q
+2019-04-09 21:33:33,885 - pycanv:main - INFO - main : 48 - Command entered :Q
+2019-04-09 21:34:02,950 - pycanv:main - INFO - main : 48 - Command entered :Q
+2019-04-09 21:34:04,910 - pycanv:main - INFO - main : 48 - Command entered :Q
+2019-04-09 21:34:29,668 - pycanv:main - INFO - main : 48 - Command entered :Q
+2019-04-09 21:37:43,677 - pycanv:main - INFO - main : 49 - Command entered :slkdsd
+2019-04-09 21:39:52,410 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:39:55,319 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:39:55,319 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:39:56,334 - pycanv:main - INFO - main : 50 - Command entered :dfsdf
+2019-04-09 21:39:58,241 - pycanv:main - INFO - main : 50 - Command entered :sdd
+2019-04-09 21:39:59,163 - pycanv:main - INFO - main : 50 - Command entered :edfdf
+2019-04-09 21:40:01,535 - pycanv:main - INFO - main : 50 - Command entered :help
+2019-04-09 21:40:08,839 - pycanv:main - INFO - main : 50 - Command entered :Cwdsd
+2019-04-09 21:40:12,107 - pycanv:main - INFO - main : 50 - Command entered :Cedwfdf
+2019-04-09 21:40:14,369 - pycanv:main - INFO - main : 50 - Command entered :C 20 4
+2019-04-09 21:40:14,369 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:40:14,384 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:40:21,074 - pycanv:main - INFO - main : 50 - Command entered :C 0 0 
+2019-04-09 21:40:21,074 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:40:21,074 - pycanv:main - DEBUG - main : 60 - Canvas already exists, user re-entered canvas command
+2019-04-09 21:40:23,509 - pycanv:main - DEBUG - main : 62 - User confirmation - Y
+2019-04-09 21:40:23,509 - pycanv:main - DEBUG - main : 67 - Canvas deleted successfully, creating new canvas
+2019-04-09 21:40:23,524 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:40:32,606 - pycanv:main - INFO - main : 50 - Command entered :C 10 10
+2019-04-09 21:40:32,606 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:40:32,637 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:41:05,277 - pycanv:main - INFO - main : 50 - Command entered :L 12 2ds
+2019-04-09 21:41:05,277 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:41:05,277 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:41:11,714 - pycanv:main - INFO - main : 50 - Command entered :L 1 2 6 2
+2019-04-09 21:41:11,729 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:41:11,760 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:41:17,246 - pycanv:main - INFO - main : 50 - Command entered :L 6 2 6 3
+2019-04-09 21:41:17,246 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:41:17,277 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:41:25,349 - pycanv:main - INFO - main : 50 - Command entered :C 20 4
+2019-04-09 21:41:25,349 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:41:25,349 - pycanv:main - DEBUG - main : 60 - Canvas already exists, user re-entered canvas command
+2019-04-09 21:41:26,776 - pycanv:main - DEBUG - main : 62 - User confirmation - Y
+2019-04-09 21:41:26,776 - pycanv:main - DEBUG - main : 67 - Canvas deleted successfully, creating new canvas
+2019-04-09 21:41:26,791 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:41:32,613 - pycanv:main - INFO - main : 50 - Command entered :L 1 2 6 2
+2019-04-09 21:41:32,628 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:41:32,644 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:41:38,581 - pycanv:main - INFO - main : 50 - Command entered :L 6 2 6 3
+2019-04-09 21:41:38,581 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:41:38,597 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:41:44,139 - pycanv:main - INFO - main : 50 - Command entered :R 14 1 18 3
+2019-04-09 21:41:44,155 - pycanv:main - DEBUG - main : 81 - Processing start - Rectangle command
+2019-04-09 21:41:44,170 - pycanv:main - DEBUG - main : 83 - Processing end - Rectangle command
+2019-04-09 21:41:50,448 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 Y
+2019-04-09 21:41:50,448 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:41:50,463 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:42:02,767 - pycanv:main - INFO - main : 50 - Command entered :C 20 6
+2019-04-09 21:42:02,783 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:42:02,783 - pycanv:main - DEBUG - main : 60 - Canvas already exists, user re-entered canvas command
+2019-04-09 21:42:04,389 - pycanv:main - DEBUG - main : 62 - User confirmation - Y
+2019-04-09 21:42:04,389 - pycanv:main - DEBUG - main : 67 - Canvas deleted successfully, creating new canvas
+2019-04-09 21:42:04,405 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:42:08,660 - pycanv:main - INFO - main : 50 - Command entered :L 1 2 6 2
+2019-04-09 21:42:08,660 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:42:08,691 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:42:20,035 - pycanv:main - INFO - main : 50 - Command entered :L 6 2  gg
+2019-04-09 21:42:20,035 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:42:20,035 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:42:30,926 - pycanv:main - INFO - main : 50 - Command entered :L 6 2 6 6
+2019-04-09 21:42:30,926 - pycanv:main - DEBUG - main : 76 - Processing start - Line command
+2019-04-09 21:42:30,942 - pycanv:main - DEBUG - main : 78 - Processing end - Line command
+2019-04-09 21:42:37,336 - pycanv:main - INFO - main : 50 - Command entered :R 14 1 18 3
+2019-04-09 21:42:37,336 - pycanv:main - DEBUG - main : 81 - Processing start - Rectangle command
+2019-04-09 21:42:37,351 - pycanv:main - DEBUG - main : 83 - Processing end - Rectangle command
+2019-04-09 21:42:40,969 - pycanv:main - INFO - main : 50 - Command entered :B
+2019-04-09 21:42:40,969 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:42:40,969 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:42:45,051 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 G
+2019-04-09 21:42:45,051 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:42:45,067 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:42:49,627 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:42:53,055 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:46:05,615 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:46:07,699 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:46:09,023 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:09,023 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:10,771 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:10,771 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:10,996 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:10,996 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:11,190 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:11,190 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:11,846 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:11,846 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:12,003 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:12,003 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:12,160 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:12,161 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:12,832 - pycanv:main - INFO - main : 50 - Command entered :sdsd
+2019-04-09 21:46:13,259 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:13,259 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:13,416 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:13,416 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:13,572 - pycanv:main - INFO - main : 50 - Command entered :
+2019-04-09 21:46:13,572 - pycanv:main - ERROR - main : 54 - No arguments passed
+2019-04-09 21:46:14,484 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:46:16,381 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:46:18,978 - pycanv:main - INFO - main : 50 - Command entered :os._exit()
+2019-04-09 21:46:24,683 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:47:38,616 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:47:38,616 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:47:45,235 - pycanv:main - INFO - main : 50 - Command entered :C 20 4
+2019-04-09 21:47:45,235 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:47:45,235 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:47:52,176 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 O
+2019-04-09 21:47:52,176 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:47:52,191 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:47:54,936 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:47:54,936 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:47:59,757 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:47:59,789 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:49:05,051 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:49:05,051 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:49:15,589 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:49:15,605 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:49:22,486 - pycanv:main - INFO - main : 50 - Command entered :C 20 4
+2019-04-09 21:49:22,486 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:49:22,486 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:49:25,831 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 Y
+2019-04-09 21:49:25,831 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:49:25,831 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:49:28,203 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:49:28,218 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:49:32,598 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:49:32,598 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:49:34,111 - pycanv:main - INFO - main : 50 - Command entered :q
+2019-04-09 21:49:35,552 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:49:35,567 - pycanv:main - ERROR - main : 103 - Error occured in PycCanv - Error in command ,please check command - type help for command information
+2019-04-09 21:50:34,543 - pycanv:main - INFO - main : 50 - Command entered :C 20 4
+2019-04-09 21:50:34,543 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:50:34,558 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:50:38,301 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 U
+2019-04-09 21:50:38,301 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:50:38,301 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:50:47,591 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 U
+2019-04-09 21:50:47,592 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:50:47,592 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:50:49,929 - pycanv:main - INFO - main : 50 - Command entered :B 10 3 O
+2019-04-09 21:50:49,929 - pycanv:main - DEBUG - main : 86 - Processing start - Bucket command
+2019-04-09 21:50:49,944 - pycanv:main - DEBUG - main : 88 - Processing end - Bucket command
+2019-04-09 21:51:50,475 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:51:56,302 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:51:58,046 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:51:59,450 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:52:01,115 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:52:19,380 - pycanv:main - INFO - main : 50 - Command entered :C 20 4 
+2019-04-09 21:52:19,380 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:52:19,380 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:52:21,234 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:52:24,706 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:52:49,400 - pycanv:main - INFO - main : 50 - Command entered :C 20 4
+2019-04-09 21:52:49,400 - pycanv:main - DEBUG - main : 58 - Processing start - Canvas command
+2019-04-09 21:52:56,091 - pycanv:main - DEBUG - main : 73 - Processing end - Canvas command
+2019-04-09 21:53:17,791 - pycanv:main - INFO - main : 50 - Command entered :Q
+2019-04-09 21:55:23,923 - pycanv:main - INFO - main : 52 - Command entered :C 20 4
+2019-04-09 21:55:23,923 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 21:55:23,923 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 21:55:27,816 - pycanv:main - INFO - main : 52 - Command entered :B 10 3 R
+2019-04-09 21:55:27,816 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 21:55:30,254 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 21:55:36,075 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 21:55:49,670 - pycanv:main - INFO - main : 52 - Command entered :C 20 4
+2019-04-09 21:55:49,670 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 21:55:49,670 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 21:55:53,980 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 18
+2019-04-09 21:55:53,980 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 21:55:53,980 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 21:56:55,196 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 
+2019-04-09 21:56:55,196 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 21:56:55,196 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 21:57:39,784 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 21:58:09,036 - pycanv:main - INFO - main : 52 - Command entered :C 20 6
+2019-04-09 21:58:09,036 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 21:58:09,036 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 21:58:13,909 - pycanv:main - INFO - main : 52 - Command entered :L 1 2 6 2
+2019-04-09 21:58:13,909 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 21:58:13,925 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 21:58:15,415 - pycanv:main - INFO - main : 52 - Command entered :L qsd
+2019-04-09 21:58:15,415 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 21:58:15,415 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 21:58:20,158 - pycanv:main - INFO - main : 52 - Command entered :R 1 4s
+2019-04-09 21:58:20,159 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 21:58:20,166 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 21:58:26,885 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 18 3
+2019-04-09 21:58:26,885 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 21:58:26,900 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 21:58:35,772 - pycanv:main - INFO - main : 52 - Command entered :B sd
+2019-04-09 21:58:35,772 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 21:58:35,772 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 21:58:42,849 - pycanv:main - INFO - main : 52 - Command entered :B 15 3 B
+2019-04-09 21:58:42,849 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 21:58:42,865 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 21:58:59,388 - pycanv:main - INFO - main : 52 - Command entered :B 15 2 O
+2019-04-09 21:58:59,404 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 21:58:59,404 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 21:59:06,619 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 22:26:36,543 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 22:30:13,667 - pycanv:main - INFO - main : 52 - Command entered :C 20 4
+2019-04-09 22:30:13,667 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 22:30:13,682 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 22:30:18,914 - pycanv:main - INFO - main : 52 - Command entered :L 1 2 6 2
+2019-04-09 22:30:18,914 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:30:18,914 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:30:24,031 - pycanv:main - INFO - main : 52 - Command entered :L 66 6 3
+2019-04-09 22:30:24,031 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:30:24,031 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:30:29,919 - pycanv:main - INFO - main : 52 - Command entered :L 6 6 6 3
+2019-04-09 22:30:29,919 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:30:29,919 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:30:36,955 - pycanv:main - INFO - main : 52 - Command entered :L 6 3 6 6 
+2019-04-09 22:30:36,955 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:30:36,955 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:30:45,146 - pycanv:main - INFO - main : 52 - Command entered :L 3 6 6 6
+2019-04-09 22:30:45,146 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:30:45,146 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:31:01,264 - pycanv:main - INFO - main : 52 - Command entered :L 6 4 6 3
+2019-04-09 22:31:01,264 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:31:01,264 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:31:05,922 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 18 3
+2019-04-09 22:31:05,922 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 22:31:05,938 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 22:31:10,141 - pycanv:main - INFO - main : 52 - Command entered :B 10 3 O
+2019-04-09 22:31:10,141 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 22:31:10,157 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 22:31:14,555 - pycanv:main - INFO - main : 52 - Command entered :help
+2019-04-09 22:31:22,055 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 22:51:17,760 - pycanv:main - INFO - main : 52 - Command entered :d;sdf
+2019-04-09 22:51:43,303 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 22:51:49,683 - pycanv:main - INFO - main : 52 - Command entered :add
+2019-04-09 22:51:54,631 - pycanv:main - INFO - main : 52 - Command entered :C 20 4
+2019-04-09 22:51:54,631 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 22:51:54,631 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 22:51:58,380 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 22:52:14,913 - pycanv:main - INFO - main : 52 - Command entered :C 20 4
+2019-04-09 22:52:14,913 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 22:52:14,913 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 22:52:19,197 - pycanv:main - INFO - main : 52 - Command entered :L 1 2 6 2
+2019-04-09 22:52:19,197 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:52:19,197 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:52:29,556 - pycanv:main - INFO - main : 52 - Command entered :L 6 3 6 4
+2019-04-09 22:52:29,556 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:52:29,572 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:52:40,840 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 18 3
+2019-04-09 22:52:40,840 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 22:52:40,840 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 22:53:07,613 - pycanv:main - INFO - main : 52 - Command entered :B 10 3 O
+2019-04-09 22:53:07,613 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 22:53:07,628 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 22:53:33,536 - pycanv:main - INFO - main : 52 - Command entered :Q
+2019-04-09 22:53:44,085 - pycanv:main - INFO - main : 52 - Command entered :C 20 4
+2019-04-09 22:53:44,085 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 22:53:44,101 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 22:53:47,839 - pycanv:main - INFO - main : 52 - Command entered :L 1 2 6 2
+2019-04-09 22:53:47,839 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:53:47,839 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:53:59,151 - pycanv:main - INFO - main : 52 - Command entered :L 6 3 6 4
+2019-04-09 22:53:59,151 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:53:59,166 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:54:03,009 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 18 3
+2019-04-09 22:54:03,025 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 22:54:03,025 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 22:54:09,397 - pycanv:main - INFO - main : 52 - Command entered :B 10 3 o
+2019-04-09 22:54:09,397 - pycanv:main - DEBUG - main : 88 - Processing start - Bucket command
+2019-04-09 22:54:09,397 - pycanv:main - DEBUG - main : 90 - Processing end - Bucket command
+2019-04-09 22:55:10,471 - pycanv:main - INFO - main : 52 - Command entered :C 20 6
+2019-04-09 22:55:10,471 - pycanv:main - DEBUG - main : 60 - Processing start - Canvas command
+2019-04-09 22:55:10,471 - pycanv:main - DEBUG - main : 62 - Canvas already exists, user re-entered canvas command
+2019-04-09 22:55:12,711 - pycanv:main - DEBUG - main : 64 - User confirmation - Y
+2019-04-09 22:55:12,711 - pycanv:main - DEBUG - main : 69 - Canvas deleted successfully, creating new canvas
+2019-04-09 22:55:12,742 - pycanv:main - DEBUG - main : 75 - Processing end - Canvas command
+2019-04-09 22:55:33,895 - pycanv:main - INFO - main : 52 - Command entered :R 14 1 18 3
+2019-04-09 22:55:33,895 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 22:55:33,911 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 22:55:36,412 - pycanv:main - INFO - main : 52 - Command entered :R dde
+2019-04-09 22:55:36,412 - pycanv:main - DEBUG - main : 83 - Processing start - Rectangle command
+2019-04-09 22:55:36,412 - pycanv:main - DEBUG - main : 85 - Processing end - Rectangle command
+2019-04-09 22:55:40,055 - pycanv:main - INFO - main : 52 - Command entered :L sdD
+2019-04-09 22:55:40,055 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:55:40,070 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:55:40,731 - pycanv:main - INFO - main : 52 - Command entered :
+2019-04-09 22:55:40,731 - pycanv:main - ERROR - main : 56 - No arguments passed
+2019-04-09 22:55:42,231 - pycanv:main - INFO - main : 52 - Command entered :
+2019-04-09 22:55:42,231 - pycanv:main - ERROR - main : 56 - No arguments passed
+2019-04-09 22:55:51,060 - pycanv:main - INFO - main : 52 - Command entered :L 0 0 0 0 
+2019-04-09 22:55:51,060 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:55:51,060 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:55:53,829 - pycanv:main - INFO - main : 52 - Command entered :L 0 0 0 0
+2019-04-09 22:55:53,829 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:55:53,844 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:55:56,023 - pycanv:main - INFO - main : 52 - Command entered :L     
+2019-04-09 22:55:56,023 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:55:56,039 - pycanv:main - DEBUG - main : 80 - Processing end - Line command
+2019-04-09 22:56:03,052 - pycanv:main - INFO - main : 52 - Command entered :L -1 -3 -2 -
+2019-04-09 22:56:03,052 - pycanv:main - DEBUG - main : 78 - Processing start - Line command
+2019-04-09 22:56:03,068 - pycanv:main - DEBUG - main : 80 - Processing end - Line command

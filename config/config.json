@@ -1,0 +1,53 @@
+{
+  "APP": {
+    "SCREEN_MESSAGE": "*********** Welcome to PyCanv 1.0 - Console GUI tool ***********",
+    "ENTER_MESSAGE": "Enter your PyCanv command:",
+    "CANVAS_EXISTS_MESSAGE": "Canvas already exists - Are you sure you want to delete and create new Canvas - Type Y / N :",
+    "CANVAS_NOT_DELETED_MSG": "Canvas is not deleted",
+    "NO_ARG_ERROR":"No arguments passed - type help for command information",
+    "KEY_ERROR":"Error in command, please check command - type help for command information",
+    "NO_CANVAS_ERROR":"Canvas not found! Please create canvas - type help for command information",
+    "ERROR_MAX_ALLOWED": "Please select canvas range maximum up to w=40 , h=40",
+    "ERROR":"Error in PyCanv 1.0 please contact system admin - type help for command information"
+  },
+  "HELP": {
+    "COMMAND": "help",
+    "MESSAGE" : "Please use below commands for PyCanv 1.0 \n Canvas : C w h \n Line : L x1 y1 x2 y2 \n Rectangle : R x1 y1 x2 y2 \n Brush : B x y c  \n Quit : Q \n Color codes : V,I,B,G,Y,O,R"
+
+
+  },
+  "CANVAS": {
+    "COMMAND":"C",
+    "ARG_COUNT":3,
+    "ERROR": "Error in Canvas command, please check command - type help for command information",
+    "NEGATIVE_NUM_ERROR": "Please enter positive values for co-ordinates - type help for command information",
+    "MAX_ALLOWED_ROWS": 40,
+    "MAX_ALLOWED_COLS": 40
+  },
+  "LINE": {
+    "COMMAND":"L",
+    "ARG_COUNT":5,
+    "ERROR": "Error in Line command - type help for more information",
+    "INPUT_ERROR" : "Line co-ordinates are not correct - type help for more information",
+    "VAL_FAIL":"Input co-ordinates are not in canvas range - type help for command information"
+  },
+  "RECTANGLE": {
+    "COMMAND":"R",
+    "ARG_COUNT":5,
+    "ERROR": "Error in Rectangle command - type help for command information",
+    "VAL_FAIL":"Input co-ordinates are not in canvas range - type help for command information",
+    "INCORRECT":"Incorrect rectangle co-ordinates entered - type help for command information"
+  },
+  "BUCKET": {
+    "COMMAND": "B",
+    "ARG_COUNT":4,
+    "ALLOWED_COLORS":"v,i,b,g,y,o,r",
+    "ERROR_COLOR":"Incorrect color code - type help for command information",
+    "ERROR": "Error in Bucket command - type help for command information",
+    "VAL_FAIL":"Input co-ordinates are not in canvas range - type help for command information"
+  },
+  "QUIT": {
+    "MESSAGE" : "Thank you for using Pycanv 1.0 version \nGood Bye!",
+    "COMMAND": "Q"
+  }
+}
