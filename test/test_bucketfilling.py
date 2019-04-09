@@ -20,7 +20,7 @@ def test_process_bucket_command_positive_correct_command():
     """
     global config
     list_args = ['C', 20, 6]
-    list_args_bucket = ['B', 10, 3, 'O']
+    list_args_bucket = ['B', 10, 3, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
     assert exec_flag is True
@@ -33,7 +33,7 @@ def test_process_bucket_command_negative_incorrect_command():
     """
     global config
     list_args = ['C', 20, 6]
-    list_args_bucket = ['U', 19, 3, 'O']
+    list_args_bucket = ['U', 19, 3, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
     assert exec_flag is False
@@ -85,7 +85,7 @@ def test_process_bucket_command_negative_boundary_condition_min_command():
     """
     global config
     list_args = ['C', 20, 6]
-    list_args_bucket = ['B', 0, 0, 'O']
+    list_args_bucket = ['B', 0, 0, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
     assert exec_flag is False
@@ -98,7 +98,7 @@ def test_process_bucket_command_negative_boundary_exceed_condition_max_command()
     """
     global config
     list_args = ['C', 20, 6]
-    list_args_bucket = ['B', 21, 6, 'O']
+    list_args_bucket = ['B', 21, 6, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
     assert exec_flag is False
@@ -111,7 +111,7 @@ def test_process_bucket_command_positive_boundary_condition_min_command():
     """
     global config
     list_args = ['C', 20, 6]
-    list_args_bucket = ['B', 1, 1, 'O']
+    list_args_bucket = ['B', 1, 1, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
     assert exec_flag is True
@@ -141,7 +141,7 @@ def test_process_bucket_command_functional_check_bucketfill_outside_rectangle():
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     app.process_rectangle_command(args_list=list_args_rectangle, canvas_matrix=canvas_matrix, cols=max_cols,
                                               config=config, rows=max_rows)
-    list_args_bucket = ['B', 1, 1, 'O']
+    list_args_bucket = ['B', 1, 1, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
 
@@ -152,7 +152,7 @@ def test_process_bucket_command_functional_check_bucketfill_outside_rectangle():
     coord5 = canvas_matrix[4][2]
     coord6 = canvas_matrix[4][3]
 
-    assert exec_flag is True and coord1 == coord2 == coord3 == coord4 == coord5 == coord6 == 'O'
+    assert exec_flag is True and coord1 == coord2 == coord3 == coord4 == coord5 == coord6 == 'O'.lower()
 
 
 def test_process_bucket_command_functional_check_bucketfill_inside_rectangle():
@@ -166,7 +166,7 @@ def test_process_bucket_command_functional_check_bucketfill_inside_rectangle():
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     app.process_rectangle_command(args_list=list_args_rectangle, canvas_matrix=canvas_matrix, cols=max_cols,
                                   config=config, rows=max_rows)
-    list_args_bucket = ['B', 3, 3, 'V']
+    list_args_bucket = ['B', 3, 3, 'v']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket, canvas_matrix=canvas_matrix, cols=max_cols,
                                            config=config, rows=max_rows)
@@ -184,7 +184,7 @@ def test_process_bucket_command_functional_check_bucketfill_inside_rectangle():
     coord11 = canvas_matrix[4][4]
     coord12 = canvas_matrix[4][5]
 
-    assert coord1 == coord2 == coord3 == coord4 == coord5 == coord6 == coord7 == coord8 == coord9 == coord10 == coord11 == coord12 == 'V'
+    assert coord1 == coord2 == coord3 == coord4 == coord5 == coord6 == coord7 == coord8 == coord9 == coord10 == coord11 == coord12 == 'V'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_V():
@@ -194,10 +194,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_V():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'V']
+    list_args_bucket = ['B', 1, 1, 'v']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'V'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'V'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_I():
@@ -207,10 +207,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_I():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'I']
+    list_args_bucket = ['B', 1, 1, 'i']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'I'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'I'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_B():
@@ -220,10 +220,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_B():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'B']
+    list_args_bucket = ['B', 1, 1, 'b']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'B'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'B'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_G():
@@ -233,10 +233,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_G():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'G']
+    list_args_bucket = ['B', 1, 1, 'g']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'G'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'G'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_Y():
@@ -246,10 +246,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_Y():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'Y']
+    list_args_bucket = ['B', 1, 1, 'y']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'Y'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'Y'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_O():
@@ -259,10 +259,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_O():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'O']
+    list_args_bucket = ['B', 1, 1, 'o']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'O'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'O'.lower()
 
 
 def test_process_bucket_command_positive_functional_color_code_fill_R():
@@ -272,10 +272,10 @@ def test_process_bucket_command_positive_functional_color_code_fill_R():
     """
     global config
     list_args = ['C', 2, 2]
-    list_args_bucket = ['B', 1, 1, 'R']
+    list_args_bucket = ['B', 1, 1, 'r']
     canvas_matrix, max_rows, max_cols = app.create_canvas_matrix(args_list=list_args)
     exec_flag = process_bucket_command(args_list=list_args_bucket,canvas_matrix=canvas_matrix,cols=max_cols,config=config,rows=max_rows)
-    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'R'
+    assert canvas_matrix[1][1] == canvas_matrix[1][2] == canvas_matrix[2][1] == canvas_matrix[2][2] == 'R'.lower()
 
 
 if __name__ == '__main__':
