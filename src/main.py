@@ -112,7 +112,7 @@ def main():
 def validateArgs(args):
     try:
         if True:
-            print("fff")
+            print("okkay")
         else:
             pass
     except Exception  as e:
