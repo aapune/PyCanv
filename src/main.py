@@ -109,6 +109,15 @@ def main():
         else:
             sys.exit(0)
 
+def validateArgs(args):
+    try:
+        if True:
+            print("fff")
+        else:
+            pass
+    except Exception  as e:
+        print("error")
+
 
 def process_canvas_command(args_list, config):
     '''
